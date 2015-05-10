@@ -2,7 +2,6 @@
 # -*- coding: utf-8 -*-
 
 from socket import socket, AF_UNIX, SOCK_STREAM
-#from haproxy import const
 
 HA_BUFSIZE = 8192
 

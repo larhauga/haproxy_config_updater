@@ -3,7 +3,6 @@
 
 import subprocess
 from haconn import HAconn
-from nova import openstack
 from os import path
 from jinja2 import Environment, PackageLoader, FileSystemLoader
 
