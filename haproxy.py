@@ -30,7 +30,7 @@ class HAproxy:
 
         p = path.dirname(path.abspath(__file__))
         # This needs correcting
-        env = Environment(loader=FileSystemLoader(path.split(p)[0] + '/etc/'))
+        env = Environment(loader=FileSystemLoader(p + '/etc/'))
         template = env.get_template('haproxy.cfg')
 
         # Example
